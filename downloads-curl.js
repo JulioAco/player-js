@@ -102,7 +102,7 @@ async function handleDownload() {
                     } else {
                         countdownElement.textContent = `Espere ${countdown} segundos...`;
                     }
-                }, 1000);
+                }, 100);
             }
             break; // Salimos del bucle después de encontrar el radio seleccionado
         }
